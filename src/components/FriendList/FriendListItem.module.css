@@ -1,0 +1,43 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  border: #030303 solid 2px;
+  width: 100px;
+  padding: 20px 15px;
+}
+
+.avatar {
+  object-fit: cover;
+  height: auto;
+  width: 100px;
+}
+
+.name {
+  color: #030303;
+  
+  margin: 0 0 5px;
+  font-size: 2em;
+}
+
+.status {
+  font-size: 14px;
+  font-weight: 3400;
+  justify-content: center;
+  color: #030303;
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}

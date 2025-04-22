@@ -1,0 +1,40 @@
+.transaction_history {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+/* Başlık satırı */
+.transaction_history thead tr {
+  background-color: #2e2e2e;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Başlık hücreleri */
+.transaction_history thead th {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+/* Veri satırları */
+.transaction_history tbody tr {
+  background-color: white;
+}
+
+/* Zebra deseni: çift satırlara gri arka plan */
+.transaction_history tbody tr:nth-child(even) {
+  background-color: #dcdcdc;
+}
+
+/* Hücrelerin içeriği */
+.transaction_history tbody td {
+  padding: 12px;
+  border: 2px solid #3e3939;
+  font-size: 18px;
+  font-weight: bold;
+}
